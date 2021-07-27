@@ -1,0 +1,29 @@
+* {
+  background-color: #ddc5c5;
+  overflow: hidden;
+}
+
+p.myClock {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 60px;
+  font-weight: bold;
+  background-color: #a89f9f;
+  padding: 0px 20px 0px 20px;
+  border: 5px solid #f59e9e;
+  box-shadow: 10px #3a14e2;
+  border-radius: 10px;
+}
+
+p.myClock:hover {
+  background-color: #b61919;
+  border: 10px solid pink;
+}
+
+.card-footer {
+  position: relative;
+  text-align: center;
+  margin-top: 570px;
+}/*# sourceMappingURL=style.css.map */

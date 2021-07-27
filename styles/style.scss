@@ -1,0 +1,33 @@
+*
+{
+    background-color: rgb(221, 197, 197);
+    overflow: hidden;
+}
+
+p.myClock
+{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 60px;
+    font-weight: bold;
+    background-color: rgb(168, 159, 159);
+    padding: 0px 20px 0px 20px;
+    border: 5px solid rgb(245, 158, 158);
+    box-shadow: 10px rgb(58, 20, 226);
+    border-radius: 10px;
+}
+
+p.myClock:hover
+{
+    background-color: rgb(182, 25, 25);
+    border: 10px solid pink;
+}
+
+.card-footer
+{
+    position: relative;
+    text-align: center;
+    margin-top: 570px;
+}
